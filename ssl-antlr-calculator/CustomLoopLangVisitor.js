@@ -1,6 +1,6 @@
-const LoopLangVisitor = require('./generated/LoopLangVisitor').LoopLangVisitor;
+import LoopLangVisitor from './generated/LoopLangVisitor.js';
 
-class CustomLoopLangVisitor extends LoopLangVisitor {
+export class CustomLoopLangVisitor extends LoopLangVisitor {
   constructor() {
     super();
   }
@@ -44,5 +44,3 @@ class CustomLoopLangVisitor extends LoopLangVisitor {
     return 'break';
   }
 }
-
-module.exports = CustomLoopLangVisitor;
