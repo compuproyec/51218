@@ -1,0 +1,5 @@
+para x desde 2 hasta 4 hacer {
+  imprimir("Mensaje dentro del bucle");
+  salir;
+  imprimir("Este mensaje no se mostrará");
+}

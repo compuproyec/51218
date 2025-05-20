@@ -1,0 +1,16 @@
+{
+  "name": "looplang-analyzer",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Analizador sintáctico con ANTLR4 basado en LoopLang.g4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["antlr4", "visitor", "looplang", "analizador"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.13.2"
+  }
+}
