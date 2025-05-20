@@ -1,0 +1,3 @@
+para i desde hasta 5 hacer {
+  imprimir("Falta número de inicio");
+}
